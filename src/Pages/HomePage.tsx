@@ -4,7 +4,8 @@ import ReactParticles from 'react-tsparticles';
 const Container = styled.div`
     width: 100vw;
     height: 100vh;
-    background: #2b2d2f;
+    background: rgb(43,45,47);
+    background: radial-gradient(ellipse at bottom, rgba(252,176,69,1) transparent);
     color: white;
 `
 
@@ -32,14 +33,14 @@ const Subtitle = styled.h2`
 const params = {
     "particles": {
       "number": {
-        "value": 50,
+        "value": 25,
         "density": {
           "enable": true,
           "value_area": 789.1476416322727
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#ff8736"
       },
       "shape": {
         "type": "circle",
